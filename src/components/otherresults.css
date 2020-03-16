@@ -1,0 +1,412 @@
+
+.main2 .card-flip {
+    perspective: 1000px;
+    padding-top: 9%;
+    margin-top: 8%;
+    margin-left: 6%;
+  
+  }
+  .main2 .card-flip.flipped .flip{
+   
+  transform: rotateY(180deg);
+  
+  }
+  
+  .flippeds{
+    transform: rotateY(0deg);
+  }
+  p{
+    font-size:15px;
+    
+  }
+  .p_text{
+    margin-top: -2%;
+  }
+  
+  .main2 .card-flip,
+  .front,
+  .back {
+    width: 320px;
+    height: 445px;
+    
+  }
+  
+  .hvr-sweep-to-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  
+  }
+  .button_sweep{
+    display: block;
+    margin-top: auto;
+  width: 123px;
+  
+  background: #000;
+  
+  padding: 10px;
+  
+  text-align: center;
+  
+  border-radius: 50px;
+  
+  color: white;
+  margin-top: auto;
+  
+  }
+  .margin_forbuttons{
+    margin-left: 51%;
+  
+  margin-top: -19%;
+  }
+  .margin_left{
+    padding-top: 4%;
+  }
+  .flex-item {
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+  }
+  .class_ofbody{
+    height:200px;
+  }
+  .position_forbutton{
+    bottom:-2
+  }
+  .p_height{
+    height: 106px;
+  }
+  .hvr-sweep-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    border-radius: 50px;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    bottom: 0;
+    background: rgba(32, 209, 62, 0.829);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    margin-top: auto;
+  }
+  .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .margin_fordetails{
+    margin-left: -7%;
+  }
+  .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    cursor: pointer;
+    
+  }
+  
+  .cards_padding{
+    margin-left: 4%! important;
+  }
+  .main2 .country_icon{
+    font-size: 26px;
+    margin-left: -5px;
+  }
+  .test{
+    width:130px;
+  }
+  .main2 .city_icon{
+    height: 38px;
+    margin-left: -15px;
+  
+  
+  }
+  .main2 .location_icon{
+    font-size: 30px;
+  
+    margin-left: -6px;
+  }
+  .main2 .building_icon{
+    font-size: 30px;
+  
+    margin-left: -8px;
+  }
+  .main2 .floor_icon{
+    width: 30px;
+  
+    margin-left: -9px;
+  }
+  .main2 .google_maps_icon{
+    width: 32px;
+  
+  margin-left: -9px;
+  }
+  .main2 .video_icon{
+    font-size: 24px;
+  
+  margin-left: -8px;
+  }
+  .loader{
+    height: 64px;
+  
+  width: 59px;
+  
+  margin-top: 15%;
+  
+  margin-left: -36%;
+  }
+  .fade-out {
+    animation: fadeOut ease 2s;
+    -webkit-animation: fadeOut ease 2s;
+    -moz-animation: fadeOut ease 2s;
+    -o-animation: fadeOut ease 2s;
+    -ms-animation: fadeOut ease 2s;
+  }
+  @keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+      display: none;
+    }
+  }
+  .fade-in {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+  }@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  .card_background{
+    background-image: url("../images/terralogicgif.gif");
+    width: 15rem;
+    border: none !important;
+  height: 364px;
+  
+  
+  background-repeat: no-repeat;
+  
+  background-size: 262px 363px;
+  }
+  .main2 .capacity_icon{
+    font-size: 24px;
+  
+  margin-left: -13px;
+  }
+  .main2 .p_in_cardtext{
+    margin-top: -12%;
+  
+  margin-left: 22px;
+  }
+    
+  .main2 .flip {
+      transition: 0.6s;
+      transform-style: preserve-3d;
+      position: relative;
+     }
+     .main2 .image_css{
+      width:100%;
+      max-width:300px;
+    }
+    .main2 .flip {
+      transition: 0.6s;
+      transform-style: preserve-3d;
+      position: relative;
+     }
+     .main2 .image_css{
+      width:100%;
+      max-width:300px;
+    }
+    .main2 .front,
+    .back {
+      backface-visibility: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    
+    .main2 .front {
+      z-index: 2;
+      transform: rotateY(0deg);
+    }
+    
+    .main2 .back {
+      transform: rotateY(180deg);
+    }
+    .main2 .card_box{
+      box-shadow: 6px 0 6px rgba(0,0,0,.1);
+      /* width: 244px; */
+      width:84%;
+      height: 100%;
+  
+      
+      background-color: #87ace6;
+    }
+    /* .card_box{
+      box-shadow: 6px 0 6px rgba(0,0,0,.1);
+      width: 244px;
+      height: 383px;
+      background: rgb(59,53,53);
+  background: linear-gradient(315deg, rgba(59,53,53,1) 5%, rgba(238,229,234,1) 100%);
+    } */
+    .modal_body{
+      margin-top: -3%;
+  margin-left: -3%;
+    }
+    .body_black{
+      background-color:#5D636A;
+    }
+    .Cross_modificationmap{
+      margin-left: 46%;
+    }
+    .main2 #water_mark{
+      
+      z-index:1;
+      background-repeat:no-repeat;
+      background-position: center; 
+      background-image:url("../images/terralogic.png");
+      
+    }
+    .my-modalss{
+      height:90vw;    /* Occupy the 90% of the screen width */
+      max-height:90vw;
+  } 
+     
+    
+    .main2 #myImg {
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    
+    .main2  #myImg:hover {opacity: 0.7;}
+    
+    /* The Modal (background) */
+    .main2.modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    }
+    
+    /* Modal Content (image) */
+    .main2 .modal-content {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+    }
+    
+    /* Caption of Modal Image */
+    .main2  #caption {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+      text-align: center;
+      color: #ccc;
+      padding: 10px 0;
+      height: 150px;
+    }
+    
+    /* Add Animation */
+    .main2 .modal-content, #caption {  
+      -webkit-animation-name: zoom;
+      -webkit-animation-duration: 0.6s;
+      animation-name: zoom;
+      animation-duration: 0.6s;
+    }
+    
+    @-webkit-keyframes zoom {
+      from {-webkit-transform:scale(0)} 
+      to {-webkit-transform:scale(1)}
+    }
+    .images_alter{
+      width: 100%;
+      height: 84%;
+    }
+    
+    @keyframes zoom {
+      from {transform:scale(0)} 
+      to {transform:scale(1)}
+    }
+    
+    /* The Close Button */
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .alter_mul{
+      font-size: 39px;
+      margin-left:91% ;
+    }
+    .alter_mul:hover,.alter_mul:focus{
+      opacity:0.6 ;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .Cross_modification{
+      cursor:pointer;
+      
+    }
+    
+    /* 100% Image Width on Smaller Screens */
+    @media only screen and (max-width: 700px){
+      .modal-content {
+        width: 100%;
+      }
+      .modal_body{
+        margin-top: -5%;
+        margin-left: -5%;
+      }
+    }
+    @media only screen and (max-width: 592px){
+     
+      .modal_body{
+        margin-top: -5%;
+        margin-left: -5%;
+      }
+    }
+  
+  
